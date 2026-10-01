@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import venueData from '../../data/venue.json'
+import { ScrollReveal } from '../layout/ScrollReveal'
 
 const { contact, social } = venueData.venue
 
@@ -122,22 +123,24 @@ export function Contact() {
           </h2>
 
           <ul className="mt-12 grid grid-cols-2 justify-items-center gap-4 sm:gap-5 lg:grid-cols-5">
-            {links.map((link) => (
-              <li key={link.key} className="w-full max-w-[11rem]">
-                <a
-                  href={link.href}
-                  {...(link.external
-                    ? { target: '_blank', rel: 'noopener noreferrer' }
-                    : {})}
-                  className="group flex h-full flex-col items-center justify-center gap-3 rounded-2xl border border-neutral-cream/15 bg-neutral-cream/5 px-3 py-6 text-neutral-cream transition-all duration-300 hover:-translate-y-1 hover:border-accent hover:bg-accent hover:text-neutral-charcoal focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-charcoal"
-                >
-                  <span className="transition-colors duration-300">{link.icon}</span>
-                  <span className="font-body text-sm font-medium leading-tight sm:text-base">
-                    {link.label}
-                  </span>
-                </a>
-              </li>
-            ))}
+            <ScrollReveal animation="fadeIn" stagger={0.1} delay={0.2}>
+              {links.map((link) => (
+                <li key={link.key} className="w-full max-w-[11rem]">
+                  <a
+                    href={link.href}
+                    {...(link.external
+                      ? { target: '_blank', rel: 'noopener noreferrer' }
+                      : {})}
+                    className="group flex h-full flex-col items-center justify-center gap-3 rounded-2xl border border-neutral-cream/15 bg-neutral-cream/5 px-3 py-6 text-neutral-cream transition-all duration-300 hover:-translate-y-1 hover:border-accent hover:bg-accent hover:text-neutral-charcoal focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-charcoal"
+                  >
+                    <span className="transition-colors duration-300">{link.icon}</span>
+                    <span className="font-body text-sm font-medium leading-tight sm:text-base">
+                      {link.label}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ScrollReveal>
           </ul>
         </div>
       </div>
