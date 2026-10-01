@@ -1,0 +1,45 @@
+{
+  "venue": {
+    "name": "La Dolce Isola",
+    "description": "Italian beach bar, café, and gelateria on the Calabrian coast",
+    "type": ["bar", "café", "gelateria", "beach_establishment"],
+    "address": {
+      "street": "Via Michele Bianchi 30",
+      "city": "Scalea",
+      "province": "Cosenza", 
+      "region": "Calabria",
+      "postalCode": "87029",
+      "country": "Italy",
+      "coordinates": {
+        "lat": 39.8127,
+        "lng": 15.7948
+      }
+    },
+    "contact": {
+      "phone": "+39 0985 920136",
+      "email": "",
+      "whatsapp": "+39 0985 920136"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/ladolceisola.scalea",
+      "instagram": "",
+      "tripadvisor": "https://www.tripadvisor.ru/Restaurant_Review-g194909-d6965643-Reviews-La_Dolce_Isola-Scalea_Province_of_Cosenza_Calabria.html"
+    },
+    "hours": {
+      "monday": "07:00-03:00",
+      "tuesday": "07:00-03:00",
+      "wednesday": "07:00-03:00",
+      "thursday": "07:00-03:00",
+      "friday": "07:00-03:00",
+      "saturday": "07:00-03:00",
+      "sunday": "07:00-03:00"
+    },
+    "rating": {
+      "google": 4.5,
+      "googleReviews": 450,
+      "tripadvisor": 4.3,
+      "tripadvisorReviews": 125,
+      "rank": "#20 из 103 ресторанов в Scalea"
+    }
+  }
+}

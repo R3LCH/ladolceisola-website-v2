@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "id": "colazione",
+      "name": { "it": "Colazione", "en": "Breakfast", "ru": "Завтрак", "uk": "Сніданок", "pl": "Śniadanie", "de": "Frühstück" },
+      "pages": [1, 2, 3],
+      "icon": "☕"
+    },
+    {
+      "id": "caffe",
+      "name": { "it": "Caffè", "en": "Coffee", "ru": "Кофе", "uk": "Кава", "pl": "Kawa", "de": "Kaffee" },
+      "pages": [4, 5],
+      "icon": "☕"
+    },
+    {
+      "id": "dolci",
+      "name": { "it": "Dolci", "en": "Desserts", "ru": "Десерты", "uk": "Десерти", "pl": "Desery", "de": "Desserts" },
+      "pages": [6, 7, 8],
+      "icon": "🍰"
+    },
+    {
+      "id": "gelati",
+      "name": { "it": "Gelati", "en": "Ice Cream", "ru": "Мороженое", "uk": "Морозиво", "pl": "Lody", "de": "Eis" },
+      "pages": [9, 10, 11],
+      "icon": "🍦"
+    },
+    {
+      "id": "aperitivi",
+      "name": { "it": "Aperitivi", "en": "Aperitifs", "ru": "Аперитивы", "uk": "Аперитиви", "pl": "Aperitify", "de": "Aperitifs" },
+      "pages": [12, 13, 14],
+      "icon": "🍹"
+    },
+    {
+      "id": "cocktails",
+      "name": { "it": "Cocktails", "en": "Cocktails", "ru": "Коктейли", "uk": "Коктейлі", "pl": "Koktajle", "de": "Cocktails" },
+      "pages": [15, 16],
+      "icon": "🍸"
+    },
+    {
+      "id": "bevande",
+      "name": { "it": "Bevande", "en": "Drinks", "ru": "Напитки", "uk": "Напої", "pl": "Napoje", "de": "Getränke" },
+      "pages": [17, 18],
+      "icon": "🥤"
+    },
+    {
+      "id": "pranzo",
+      "name": { "it": "Pranzo", "en": "Lunch", "ru": "Обед", "uk": "Обід", "pl": "Lunch", "de": "Mittagessen" },
+      "pages": [19, 20, 21],
+      "icon": "🍽️"
+    }
+  ],
+  "totalPages": 21
+}

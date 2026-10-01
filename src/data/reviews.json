@@ -1,0 +1,76 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "author": "Marco B.",
+      "rating": 5,
+      "text": "Ottimo bar sulla spiaggia con vista mozzafiato. Gelato artigianale eccellente!",
+      "date": "2024-07-20",
+      "platform": "tripadvisor",
+      "language": "it"
+    },
+    {
+      "id": 2,
+      "author": "Sarah M.",
+      "rating": 5,
+      "text": "Perfect spot for breakfast and aperitivo. Great atmosphere and friendly staff!",
+      "date": "2024-08-15",
+      "platform": "google",
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "author": "Giovanni R.",
+      "rating": 4,
+      "text": "Posizione fantastica direttamente sulla spiaggia. Cocktail ottimi e prezzi giusti.",
+      "date": "2024-06-10",
+      "platform": "tripadvisor",
+      "language": "it"
+    },
+    {
+      "id": 4,
+      "author": "Anna P.",
+      "rating": 5,
+      "text": "Il miglior gelato di Scalea! Personale cordiale e ambiente rilassante.",
+      "date": "2024-07-05",
+      "platform": "google",
+      "language": "it"
+    },
+    {
+      "id": 5,
+      "author": "Thomas K.",
+      "rating": 4,
+      "text": "Great beach bar with excellent coffee and pastries. Beautiful sea view!",
+      "date": "2024-08-01",
+      "platform": "tripadvisor",
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "author": "Francesca L.",
+      "rating": 5,
+      "text": "Aperitivo al tramonto con vista mare stupenda. Tornerò sicuramente!",
+      "date": "2024-07-28",
+      "platform": "google",
+      "language": "it"
+    },
+    {
+      "id": 7,
+      "author": "Dmitry V.",
+      "rating": 5,
+      "text": "Прекрасное место на пляже. Отличное мороженое и кофе!",
+      "date": "2024-08-10",
+      "platform": "google",
+      "language": "ru"
+    },
+    {
+      "id": 8,
+      "author": "Maria G.",
+      "rating": 4,
+      "text": "Locale accogliente con personale gentile. Ottima colazione e dolci freschi ogni giorno.",
+      "date": "2024-06-25",
+      "platform": "tripadvisor",
+      "language": "it"
+    }
+  ]
+}
