@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "menu": "Speisekarte",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "location": "Standort",
+    "reviews": "Bewertungen"
+  },
+  "actions": {
+    "viewMenu": "Speisekarte ansehen",
+    "backToHome": "Zurück zur Startseite",
+    "getDirections": "Route berechnen",
+    "callNow": "Jetzt anrufen",
+    "followUs": "Folgen Sie uns",
+    "readMore": "Mehr erfahren",
+    "close": "Schließen"
+  },
+  "hero": {
+    "title": "La Dolce Isola",
+    "subtitle": "Strandbar, Café und Eisdiele an der kalabrischen Küste",
+    "cta": "Speisekarte ansehen"
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "Italienische Strandbar, Café und Eisdiele an der kalabrischen Küste. Frisches Gebäck, handgemachtes Eis und Blick aufs Meer."
+  },
+  "hours": {
+    "title": "Öffnungszeiten",
+    "daily": "Täglich geöffnet, von 7:00 bis 3:00 Uhr"
+  },
+  "footer": {
+    "copyright": "© 2024 La Dolce Isola. Alle Rechte vorbehalten."
+  }
+}

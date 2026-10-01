@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About Us",
+    "contact": "Contact",
+    "location": "Location",
+    "reviews": "Reviews"
+  },
+  "actions": {
+    "viewMenu": "View Menu",
+    "backToHome": "Back to Home",
+    "getDirections": "Get Directions",
+    "callNow": "Call Now",
+    "followUs": "Follow Us",
+    "readMore": "Read More",
+    "close": "Close"
+  },
+  "hero": {
+    "title": "La Dolce Isola",
+    "subtitle": "Beach bar, café, and gelateria on the Calabrian coast",
+    "cta": "View Menu"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Italian beach bar, café, and gelateria on the Calabrian coast. Fresh pastries, artisan gelato, and stunning sea views."
+  },
+  "hours": {
+    "title": "Hours",
+    "daily": "Open daily, 7:00 am to 3:00 am"
+  },
+  "footer": {
+    "copyright": "© 2024 La Dolce Isola. All rights reserved."
+  }
+}

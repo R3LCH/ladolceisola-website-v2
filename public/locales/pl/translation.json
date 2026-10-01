@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "menu": "Menu",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "location": "Lokalizacja",
+    "reviews": "Opinie"
+  },
+  "actions": {
+    "viewMenu": "Zobacz menu",
+    "backToHome": "Wróć na stronę główną",
+    "getDirections": "Wyznacz trasę",
+    "callNow": "Zadzwoń teraz",
+    "followUs": "Obserwuj nas",
+    "readMore": "Czytaj więcej",
+    "close": "Zamknij"
+  },
+  "hero": {
+    "title": "La Dolce Isola",
+    "subtitle": "Bar plażowy, kawiarnia i lodziarnia na wybrzeżu Kalabrii",
+    "cta": "Zobacz menu"
+  },
+  "about": {
+    "title": "O nas",
+    "description": "Włoski bar plażowy, kawiarnia i lodziarnia na wybrzeżu Kalabrii. Świeże wypieki, rzemieślnicze lody i widok na morze."
+  },
+  "hours": {
+    "title": "Godziny otwarcia",
+    "daily": "Otwarte codziennie, od 7:00 do 3:00"
+  },
+  "footer": {
+    "copyright": "© 2024 La Dolce Isola. Wszelkie prawa zastrzeżone."
+  }
+}
