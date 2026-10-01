@@ -15,8 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+          node-version: '20'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
