@@ -1,16 +1,13 @@
 import './index.css'
-
+import { Header } from './components/layout/Header'
+import { Hero } from './components/sections/Hero'
+import { About } from './components/sections/About'
 function App() {
   return (
     <div className="min-h-screen bg-neutral-cream">
-      <header className="py-8 text-center">
-        <h1 className="text-4xl font-heading text-primary">
-          La Dolce Isola
-        </h1>
-        <p className="mt-2 text-neutral-charcoal/80">
-          Coming Soon
-        </p>
-      </header>
+      <Header />
+      <Hero />
+      <About />
     </div>
   )
 }

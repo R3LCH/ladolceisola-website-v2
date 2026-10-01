@@ -1,52 +1,118 @@
 {
   "categories": [
     {
-      "id": "colazione",
-      "name": { "it": "Colazione", "en": "Breakfast", "ru": "Завтрак", "uk": "Сніданок", "pl": "Śniadanie", "de": "Frühstück" },
-      "pages": [1, 2, 3],
-      "icon": "☕"
-    },
-    {
-      "id": "caffe",
-      "name": { "it": "Caffè", "en": "Coffee", "ru": "Кофе", "uk": "Кава", "pl": "Kawa", "de": "Kaffee" },
-      "pages": [4, 5],
-      "icon": "☕"
-    },
-    {
-      "id": "dolci",
-      "name": { "it": "Dolci", "en": "Desserts", "ru": "Десерты", "uk": "Десерти", "pl": "Desery", "de": "Desserts" },
-      "pages": [6, 7, 8],
-      "icon": "🍰"
-    },
-    {
-      "id": "gelati",
-      "name": { "it": "Gelati", "en": "Ice Cream", "ru": "Мороженое", "uk": "Морозиво", "pl": "Lody", "de": "Eis" },
-      "pages": [9, 10, 11],
-      "icon": "🍦"
-    },
-    {
-      "id": "aperitivi",
-      "name": { "it": "Aperitivi", "en": "Aperitifs", "ru": "Аперитивы", "uk": "Аперитиви", "pl": "Aperitify", "de": "Aperitifs" },
-      "pages": [12, 13, 14],
-      "icon": "🍹"
-    },
-    {
-      "id": "cocktails",
-      "name": { "it": "Cocktails", "en": "Cocktails", "ru": "Коктейли", "uk": "Коктейлі", "pl": "Koktajle", "de": "Cocktails" },
-      "pages": [15, 16],
+      "id": "cocktail",
+      "name": { "it": "Cocktail", "en": "Cocktails" },
+      "pages": [1, 2, 3, 4],
       "icon": "🍸"
     },
     {
-      "id": "bevande",
-      "name": { "it": "Bevande", "en": "Drinks", "ru": "Напитки", "uk": "Напої", "pl": "Napoje", "de": "Getränke" },
-      "pages": [17, 18],
+      "id": "aperitivi",
+      "name": { "it": "Aperitivi", "en": "Aperitifs" },
+      "pages": [3],
+      "icon": "🍹"
+    },
+    {
+      "id": "analcolici",
+      "name": { "it": "Analcolici", "en": "Virgin Cocktails" },
+      "pages": [4, 5],
       "icon": "🥤"
     },
     {
-      "id": "pranzo",
-      "name": { "it": "Pranzo", "en": "Lunch", "ru": "Обед", "uk": "Обід", "pl": "Lunch", "de": "Mittagessen" },
-      "pages": [19, 20, 21],
-      "icon": "🍽️"
+      "id": "vini",
+      "name": { "it": "Vini", "en": "Wines" },
+      "pages": [6, 7],
+      "icon": "🍷"
+    },
+    {
+      "id": "birre",
+      "name": { "it": "Birre", "en": "Beers" },
+      "pages": [8],
+      "icon": "🍺"
+    },
+    {
+      "id": "amari-e-liquori",
+      "name": { "it": "Amari e Liquori", "en": "Bitters & Liqueurs" },
+      "pages": [8, 9],
+      "icon": "🥃"
+    },
+    {
+      "id": "distillati",
+      "name": { "it": "Distillati", "en": "Spirits" },
+      "pages": [9],
+      "icon": "🥃"
+    },
+    {
+      "id": "pizza",
+      "name": { "it": "Pizza", "en": "Pizza" },
+      "pages": [10, 11],
+      "icon": "🍕"
+    },
+    {
+      "id": "primi",
+      "name": { "it": "Primi", "en": "First Courses" },
+      "pages": [12],
+      "icon": "🍝"
+    },
+    {
+      "id": "secondi",
+      "name": { "it": "Secondi", "en": "Main Courses" },
+      "pages": [13],
+      "icon": "🥩"
+    },
+    {
+      "id": "contorni",
+      "name": { "it": "Contorni", "en": "Sides" },
+      "pages": [14],
+      "icon": "🍟"
+    },
+    {
+      "id": "insalate",
+      "name": { "it": "Insalate", "en": "Salads" },
+      "pages": [14],
+      "icon": "🥗"
+    },
+    {
+      "id": "gelato",
+      "name": { "it": "Gelato", "en": "Ice Cream" },
+      "pages": [15, 16, 17],
+      "icon": "🍨"
+    },
+    {
+      "id": "smoothie",
+      "name": { "it": "Smoothie", "en": "Smoothies" },
+      "pages": [18],
+      "icon": "🥤"
+    },
+    {
+      "id": "pancake",
+      "name": { "it": "Pancake", "en": "Pancakes" },
+      "pages": [18],
+      "icon": "🥞"
+    },
+    {
+      "id": "dessert",
+      "name": { "it": "Dessert", "en": "Desserts" },
+      "pages": [19],
+      "icon": "🍰"
+    },
+    {
+      "id": "crepes",
+      "name": { "it": "Crêpes", "en": "Crêpes" },
+      "pages": [19],
+      "icon": "🌯"
+    },
+    {
+      "id": "caffe",
+      "name": { "it": "Caffetteria", "en": "Coffee" },
+      "pages": [20],
+      "icon": "☕"
+    },
+    {
+      "id": "bevande",
+      "name": { "it": "Bevande", "en": "Drinks" },
+      "pages": [21],
+      "icon": "🧃"
     }
   ],
   "totalPages": 21
