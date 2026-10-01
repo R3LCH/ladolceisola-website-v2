@@ -6,7 +6,8 @@ export default defineConfig({
   base: '/ladolceisola-website-v2/',
   build: {
     outDir: 'dist',
-    sourcemap: true,
+    sourcemap: false,
+    minify: 'esbuild',
     rollupOptions: {
       output: {
         manualChunks(id) {
@@ -27,6 +28,7 @@ export default defineConfig({
         },
       },
     },
+    chunkSizeWarningLimit: 1000,
   },
   server: {
     port: 5173,

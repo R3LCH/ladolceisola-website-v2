@@ -4,8 +4,17 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 
 // Translation resources will be loaded dynamically
 const loadTranslations = async (lang: string) => {
-  const response = await fetch(`/locales/${lang}/translation.json`)
-  return response.json()
+  try {
+    const response = await fetch(`/ladolceisola-website-v2/locales/${lang}/translation.json`)
+    if (!response.ok) {
+      console.warn(`Failed to load translations for ${lang}`)
+      return {}
+    }
+    return response.json()
+  } catch (error) {
+    console.warn(`Error loading translations for ${lang}:`, error)
+    return {}
+  }
 }
 
 i18n

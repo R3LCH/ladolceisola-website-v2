@@ -51,9 +51,9 @@ export function ScrollReveal({
       default:
         // If stagger is provided, select children for stagger animation
         if (stagger !== undefined) {
-          const children = Array.from(elementRef.current.children) as HTMLElement[]
-          if (children.length > 0) {
-            staggerReveal(children, options)
+          const childElements = Array.from(elementRef.current.children) as HTMLElement[]
+          if (childElements.length > 0) {
+            staggerReveal(childElements, options)
           } else {
             fadeInUp(elementRef.current, options)
           }
@@ -66,8 +66,9 @@ export function ScrollReveal({
     // Cleanup is handled by GSAP automatically
   }, [animation, duration, delay, stagger])
 
+  // Use display: contents to preserve list semantics
   return (
-    <div ref={elementRef} className={className}>
+    <div ref={elementRef} className={className} style={{ display: 'contents' }}>
       {children}
     </div>
   )

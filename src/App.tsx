@@ -12,10 +12,12 @@ function App() {
   return (
     <div className="min-h-screen bg-neutral-cream">
       <Header />
-      <Hero onMenuClick={() => setMenuOpen(true)} />
-      <About />
-      <Location />
-      <Contact />
+      <main>
+        <Hero onMenuClick={() => setMenuOpen(true)} />
+        <About />
+        <Location />
+        <Contact />
+      </main>
       <MenuBook isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
     </div>
   )
