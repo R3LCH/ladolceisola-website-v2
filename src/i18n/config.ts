@@ -2,20 +2,12 @@ import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 
-// Translation resources will be loaded dynamically
-const loadTranslations = async (lang: string) => {
-  try {
-    const response = await fetch(`/ladolceisola-website-v2/locales/${lang}/translation.json`)
-    if (!response.ok) {
-      console.warn(`Failed to load translations for ${lang}`)
-      return {}
-    }
-    return response.json()
-  } catch (error) {
-    console.warn(`Error loading translations for ${lang}:`, error)
-    return {}
-  }
-}
+import itTranslations from '../../public/locales/it/translation.json'
+import enTranslations from '../../public/locales/en/translation.json'
+import ruTranslations from '../../public/locales/ru/translation.json'
+import ukTranslations from '../../public/locales/uk/translation.json'
+import plTranslations from '../../public/locales/pl/translation.json'
+import deTranslations from '../../public/locales/de/translation.json'
 
 i18n
   .use(LanguageDetector)
@@ -30,14 +22,14 @@ i18n
       order: ['localStorage', 'navigator'],
       caches: ['localStorage'],
     },
-    resources: {},
+    resources: {
+      it: { translation: itTranslations },
+      en: { translation: enTranslations },
+      ru: { translation: ruTranslations },
+      uk: { translation: ukTranslations },
+      pl: { translation: plTranslations },
+      de: { translation: deTranslations },
+    },
   })
-
-// Load translations for all languages
-;['it', 'en', 'ru', 'uk', 'pl', 'de'].forEach((lang) => {
-  loadTranslations(lang).then((translations) => {
-    i18n.addResourceBundle(lang, 'translation', translations)
-  })
-})
 
 export default i18n
