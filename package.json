@@ -1,0 +1,21 @@
+{
+  "name": "ladolceisola-website-v2",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . && oxlint .",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^7.0.2"
+  }
+}
