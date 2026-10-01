@@ -1,12 +1,20 @@
 import { useTranslation } from 'react-i18next'
 
-export function Hero() {
+interface HeroProps {
+  onMenuClick?: () => void
+}
+
+export function Hero({ onMenuClick }: HeroProps) {
   const { t } = useTranslation()
 
   const handleCTAClick = () => {
-    const menuSection = document.getElementById('menu')
-    if (menuSection) {
-      menuSection.scrollIntoView({ behavior: 'smooth' })
+    if (onMenuClick) {
+      onMenuClick()
+    } else {
+      const menuSection = document.getElementById('menu')
+      if (menuSection) {
+        menuSection.scrollIntoView({ behavior: 'smooth' })
+      }
     }
   }
 

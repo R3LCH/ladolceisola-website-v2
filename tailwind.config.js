@@ -32,6 +32,9 @@ export default {
         body: ['Inter', 'sans-serif'],
         menu: ['Cormorant Garamond', 'serif'],
       },
+      transitionDuration: {
+        '400': '400ms',
+      },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-out',
         'slide-up': 'slideUp 0.6s ease-out',
