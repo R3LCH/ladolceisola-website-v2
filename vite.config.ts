@@ -4,6 +4,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/ladolceisola-website-v2/',
+  css: {
+    transformer: 'postcss',
+  },
   build: {
     outDir: 'dist',
     sourcemap: false,
