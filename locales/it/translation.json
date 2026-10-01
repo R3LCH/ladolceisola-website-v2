@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "Chi Siamo",
+    "contact": "Contatti",
+    "location": "Dove Siamo",
+    "reviews": "Recensioni"
+  },
+  "actions": {
+    "viewMenu": "Scopri il Menu",
+    "backToHome": "Torna alla Home",
+    "getDirections": "Come Arrivare",
+    "callNow": "Chiama Ora",
+    "followUs": "Seguici",
+    "emailUs": "Scrivici",
+    "whatsapp": "WhatsApp",
+    "readMore": "Leggi di più",
+    "close": "Chiudi"
+  },
+  "hero": {
+    "title": "La Dolce Isola",
+    "subtitle": "Bar, caffè e gelateria sul mare di Scalea",
+    "cta": "Scopri il Menu"
+  },
+  "about": {
+    "title": "La Dolce Isola",
+    "description": "Bar, caffè e gelateria sulla costa calabrese. Cornetti appena sfornati, gelato artigianale e la vista sul mare di Scalea."
+  },
+  "hours": {
+    "title": "Orari",
+    "daily": "Tutti i giorni, dalle 7:00 alle 3:00"
+  },
+  "footer": {
+    "copyright": "© 2024 La Dolce Isola. Tutti i diritti riservati."
+  }
+}
